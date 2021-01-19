@@ -18,7 +18,7 @@ var a App
 
 func TestMain(m *testing.M) {
 	a = App{}
-	a.Initialize("restapi", "restapi", "rest_api_example")
+	a.Initialize("root", "", "rest_api_example")
 
 	ensureTableExists()
 

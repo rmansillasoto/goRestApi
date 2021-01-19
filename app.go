@@ -22,7 +22,7 @@ type App struct {
 
 //Initialize db connection
 func (a *App) Initialize(user, password, dbname string) {
-	connectionString := fmt.Sprintf("%s:%s@tcp(192.168.64.3)/%s", user, password, dbname)
+	connectionString := fmt.Sprintf("%s:%s@/%s", user, password, dbname)
 
 	var err error
 	a.DB, err = sql.Open("mysql", connectionString)
