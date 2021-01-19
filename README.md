@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/rmansillasoto/goRestApi.svg?branch=master)](https://travis-ci.com/rmansillasoto/goRestApi)
+[![Coverage Status](https://coveralls.io/repos/github/rmansillasoto/goRestApi/badge.svg)](https://coveralls.io/github/rmansillasoto/goRestApi)
+
 API Specification
 
 Create a new user in response to a valid POST request at /user,
